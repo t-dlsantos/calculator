@@ -25,10 +25,29 @@ body {
 }
 
 .visor {
+    display: flex;
+    justify-content: end;
+    align-items: end;
     background-color: #2C2C2C;
     height: 108px;
     width: 254px;
     border-radius: 16px;
+    word-wrap: break-word;
+    word-break: break-all;
+    min-height: 64px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.last-operation {
+    font-size: 18px;
 }
 
 .content {
